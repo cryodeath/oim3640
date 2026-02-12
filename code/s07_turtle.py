@@ -13,4 +13,5 @@ def main():
     #draw_square(t)
     #draw_squrare(t, size = 50)
     draw_spiral(t)
-    
+    0.1 + 0.2
+
