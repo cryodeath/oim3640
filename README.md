@@ -11,3 +11,7 @@ This is the course repository for OIM3640
 - Name: Emmanuel Wong
 - Concentrations: Strategy and Tech Entrepreneurship
 - Interests: Cooking and Startups
+
+## My Projects
+[First Project](./projects/project-1) # for project folder in the same repo
+[Second Project](https://github.com/username/project-2) # for project in a different repo
