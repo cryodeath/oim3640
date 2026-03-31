@@ -12,6 +12,8 @@ This is the course repository for OIM3640
 - Concentrations: Strategy and Tech Entrepreneurship
 - Interests: Cooking and Startups
 
+## Project Proposals 
+[First Proposa](./projects/proposal1.md) # for project folder in the same repo
 ## My Projects
-[First Project](./projects/project-1) # for project folder in the same repo
+[First Project](./projects/project1.py) # for project folder in the same repo
 [Second Project](https://github.com/username/project-2) # for project in a different repo
