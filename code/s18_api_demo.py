@@ -35,3 +35,30 @@ response = requests.get(
     headers={'X-Token': 'emmanuelemmanuel'},  # your first name x2
 )
 print(response.json())
+
+
+import requests
+
+# POST: send a message (1-140 characters)
+requests.post('https://oim.108122.xyz/message',
+              json={'message': 'I love OIM!'},
+              headers={'X-Token': 'emmanuelemmanuel'})
+
+# GET: read all messages
+data = requests.get('https://oim.108122.xyz/messages').json()
+for msg in data:
+    print(msg)
+
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+API_KEY = os.getenv('OPENWEATHER_API_KEY')
+
+url = (f'https://api.openweathermap.org/data/2.5/weather'
+f'?q=Boston&appid={API_KEY}&units=imperial')
+
+data = requests.get(url).json()
+print(f"Current temperature in Boston: {data['main']['temp']}°C")
+
+
