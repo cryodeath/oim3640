@@ -6,7 +6,7 @@ load_dotenv()
 client = OpenAI()
 
 response = client.responses.create(
-    model='gpt-5-nano', input=" Write me a haiku about the cherry blossoms in Boston in the spring."
+    model='gpt-5-nano', input=" help me research what is the difference between an ai model and ai agent."
 )
 
 print(response.output_text)

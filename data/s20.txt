@@ -1,0 +1,61 @@
+Definitions
+- AI model
+  - A model is a mathematical function with parameters that maps inputs to outputs. It’s a component or building block.
+  - Examples: image classifiers (input image → label), translation models (text → translated text), a language model like GPT (prompts → generated text).
+  - Characteristics: usually trained on data, static at inference time (unless you update or fine-tune it), used to perform a specific task or set of tasks.
+
+- AI agent
+  - An agent is a system that can perceive its environment, make decisions to pursue goals, and take actions that affect the environment.
+  - It typically includes some form of decision-making logic (planning, search, reasoning, or learned policy) and a loop of sensing → deciding → acting → sensing.
+  - Examples: an autonomous car, a game-playing bot, a personal assistant that can perform tasks across apps, a robotic vacuum.
+
+Key differences
+- Autonomy and goals
+  - Model: performs a task when given input, but doesn’t necessarily pursue long-term goals or adapt its behavior over time.
+  - Agent: organized around goals and can act autonomously over time to try to achieve them.
+
+- Interaction with the environment
+  - Model: usually a single-input-to-output function; doesn’t continuously interact unless integrated into a system.
+  - Agent: continuously interacts with its environment via sensors (perception) and actuators (actions).
+
+- Decision-making
+  - Model: makes predictions or outputs, but doesn’t inherently plan or choose among multiple actions.
+  - Agent: makes decisions to select actions, often using planning, reasoning, or a learned policy.
+
+- Learning vs inference
+  - Model: can be trained (learning) and then used for inference; learning can be offline or online.
+  - Agent: may include learning (learning agents) or rely on a fixed policy; many agents combine perception, memory, planning, and action.
+
+- Evaluation focus
+  - Model: evaluated by predictive accuracy, loss, generalization on data.
+  - Agent: evaluated by task success, utility, robustness, safety, efficiency in achieving goals in a dynamic environment.
+
+How they relate
+- A manager’s view: agents are often built from models. An agent might use one or more AI models as components (e.g., a language model for understanding, a vision model for perception, and a planner for decision-making).
+- Model-based vs model-free agents:
+  - Model-based agent: uses a model of the environment to plan and reason about future states.
+  - Model-free agent: learns a policy or value function directly from experience without an explicit world model.
+
+Illustrative examples
+- AI model examples
+  - Image classifier: model maps an image to a label.
+  - Language model: model maps a prompt to a continuation.
+  - Translation model: model maps source text to target text.
+
+- AI agent examples
+  - Autonomous vehicle: perceives the road, decides steering/throttle, and acts, aiming to reach a destination safely.
+  - Game-playing bot: perceives the game state, plans moves, and acts to win.
+  - Virtual assistant with tools: understands requests, reasons about which tools to call, and executes actions across apps.
+
+Practical guidance to tell them apart in a project
+- Is there a goal-directed loop with sensing and acting over time? If yes, you’re likely dealing with an agent.
+- Is there a single function that takes input and returns output without ongoing interaction? If yes, you’re likely dealing with a model (or a model component).
+- Are you using planning, search, or policy optimization to decide among actions? That points to an agent.
+- Is the system designed to operate continuously in an environment (possibly updating its behavior)? That’s an agent.
+
+Quick decision checklist
+- Does the system observe and act in an environment? If yes, think agent.
+- Is the primary component a trained function from input to output with no loop of decisions? If yes, think model.
+- Is there an explicit goal being pursued over time? If yes, likely an agent (often with a model component).
+
+If you want, I can tailor this to a domain you care about (e.g., robotics, chatbots, data pipelines) and map specific tools or architectures to “model” vs “agent.” Also I can point you to introductory reading (e.g., Russell & Norvig on rational agents, Sutton & Barto on reinforcement learning) if you’d like deeper study.
