@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            line-height: 1.5;
+            color: #222;
+        }
+
+        header,
+        section,
+        article,
+        footer {
+            margin-bottom: 1.5rem;
+        }
+
+        nav a {
+            margin-right: 1rem;
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 0.5rem;
+        }
+
+        th,
+        td {
+            border: 1px solid #999;
+            padding: 0.5rem;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 0.5rem;
+        }
+
+        form input,
+        form button {
+            font-size: 1rem;
+            padding: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Hello, World!</h1>
+        <p>Welcome to my first HTML page!</p>
+        <nav>
+            <a href="#sections">Sections</a>
+            <a href="#list">List</a>
+            <a href="#form">Form</a>
+        </nav>
+    </header>
+
+    <section id="sections">
+        <h2>HTML Basics</h2>
+        <p>This page shows beginner-friendly tags and keeps a simple layout.</p>
+
+        <article>
+            <h3>Text formatting</h3>
+            <p>Use <strong>strong</strong>, <em>emphasis</em>, <u>underline</u>, and <small>small text</small> tags for styling.</p>
+        </article>
+
+        <article>
+            <h3>Links and images</h3>
+            <p><a href="https://www.example.com" target="_blank" rel="noopener">Visit example.com</a> for more examples.</p>
+            <img src="https://via.placeholder.com/300x150?text=Sample+Image" alt="Sample image">
+        </article>
+
+        <article>
+            <h3>Code and quotes</h3>
+            <blockquote>HTML is the standard markup language for documents designed to be displayed in a web browser.</blockquote>
+            <pre><code>&lt;h1&gt;Hello&lt;/h1&gt;</code></pre>
+        </article>
+    </section>
+
+    <section id="list">
+        <h2>Lists and Table</h2>
+        <p>Ordered and unordered lists are easy to read:</p>
+        <ul>
+            <li>Unordered item one</li>
+            <li>Unordered item two</li>
+            <li>Unordered item three</li>
+        </ul>
+        <ol>
+            <li>First ordered item</li>
+            <li>Second ordered item</li>
+            <li>Third ordered item</li>
+        </ol>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Tag</th>
+                    <th>Use</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lt;p&gt;</td>
+                    <td>Paragraphs</td>
+                </tr>
+                <tr>
+                    <td>&lt;h1&gt;-&lt;h6&gt;</td>
+                    <td>Headings</td>
+                </tr>
+                <tr>
+                    <td>&lt;a&gt;</td>
+                    <td>Links</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="form">
+        <h2>Simple Form</h2>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Your name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="you@example.com"><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Made with beginner-friendly HTML tags.</p>
+    </footer>
+</body>
+
+</html>
