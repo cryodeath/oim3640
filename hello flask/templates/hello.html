@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Hello {{ name }}{% endblock %}
+
+{% block page_title %}Hello, {{ name }}!{% endblock %}
+
+{% block content %}
+<div class="card">
+    <p>Welcome to your Flask-powered stock tracker. This site is a great place to display live financial prices and provide quick, readable insights.</p>
+    <p class="highlight">Try entering a ticker in the URL like <strong>/stock/aapl</strong> or test the square route with <strong>/square/5</strong>.</p>
+</div>
+
+<div class="stat-row">
+    <div class="stat-box">
+        <h2>What to build next</h2>
+        <p>Add a search form, handle invalid tickers, and show a price trend chart.</p>
+    </div>
+    <div class="stat-box">
+        <h2>Best practice</h2>
+        <p>Keep the UI simple, with clear labels and a clean color palette for readability.</p>
+    </div>
+</div>
+{% endblock %}

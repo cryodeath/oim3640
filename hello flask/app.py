@@ -32,8 +32,7 @@ def square(number):
 @app.route('/stock/<ticker>')
 def stock(ticker):
     price = get_price(ticker)
-    return f"The current price of {ticker.upper()} is ${price:.2f}"
-    # return render_template('stock.html', ticker=ticker.upper(), price=dummy_price)
+    return render_template('stock.html', ticker=ticker.upper(), price=price)
 
 if __name__ == "__main__":
     app.run(debug=True)

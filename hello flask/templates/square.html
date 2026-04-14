@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Square of {{ number }}{% endblock %}
+
+{% block page_title %}Square Calculator{% endblock %}
+
+{% block content %}
+<div class="card large">
+    <p>You entered <strong>{{ number }}</strong>.</p>
+    <p class="highlight">The square of {{ number }} is <strong>{{ square }}</strong>.</p>
+    <a class="button-link" href="/">Back to home</a>
+</div>
+{% endblock %}
