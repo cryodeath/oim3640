@@ -1,14 +1,29 @@
 {% extends 'base.html' %}
 
-{% block title %}Stock Price: {{ ticker }}{% endblock %}
+{% block title %}Stock Price{% if ticker %}: {{ ticker }}{% endif %}{% endblock %}
 
-{% block page_title %}Live Price for {{ ticker }}{% endblock %}
+{% block page_title %}{% if ticker %}Live Price for {{ ticker }}{% else %}Check a Stock Price{% endif %}{% endblock %}
 
 {% block content %}
 <div class="card large">
-    <p>Current quote for <strong>{{ ticker }}</strong>:</p>
-    <p class="highlight">${{ "%.2f"|format(price) }}</p>
-    <p>Refresh the page or change the ticker symbol in the URL to track another stock.</p>
+    <form method="post" action="{{ url_for('ticker') }}">
+        <label for="ticker">Enter stock ticker symbol</label>
+        <input id="ticker" name="ticker" type="text" placeholder="AAPL" value="{{ ticker or '' }}" required>
+        <button type="submit">Get Price</button>
+    </form>
+
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+
+    {% if price is not none %}
+        <p>Current quote for <strong>{{ ticker }}</strong>:</p>
+        <p class="highlight">${{ "%.2f"|format(price) }}</p>
+        <p>Submit another ticker to update the price on this page.</p>
+    {% elif not error %}
+        <p>Enter a ticker symbol and click the button to see the current price without leaving this page.</p>
+    {% endif %}
+
     <a class="button-link" href="/">Back to home</a>
 </div>
 {% endblock %}
