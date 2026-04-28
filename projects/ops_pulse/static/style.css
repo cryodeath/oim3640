@@ -1,0 +1,21 @@
+body {
+  background: #f7fafc;
+  color: #1f2937;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.metric-card {
+  min-height: 100px;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
+
+footer {
+  border-top: 1px solid #e2e8f0;
+}

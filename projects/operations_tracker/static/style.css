@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #2b2b2b;
+}
+
+header {
+  background: #1f3e72;
+  color: white;
+  padding: 2rem 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  max-width: 42rem;
+  margin-top: 0.5rem;
+}
+
+.container {
+  width: min(1120px, 90vw);
+  margin: 0 auto;
+}
+
+main {
+  padding: 2rem 0 3rem;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.06);
+  margin-bottom: 1.5rem;
+}
+
+.card-large {
+  min-height: 320px;
+}
+
+.card-small {
+  max-width: 380px;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: minmax(0, 1fr) 360px;
+}
+
+.metrics {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.metric {
+  padding: 1rem;
+  border: 1px solid #e1e7f3;
+  border-radius: 10px;
+  background: #f8fafc;
+}
+
+.metric-label {
+  display: block;
+  font-size: 0.95rem;
+  color: #5d6e83;
+}
+
+.metric-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.filter-form,
+.task-form {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+label {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.95rem;
+}
+
+input,
+select,
+textarea,
+button {
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font: inherit;
+  padding: 0.85rem 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background: #1f3e72;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background: #16325a;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.95rem 0.75rem;
+  border-bottom: 1px solid #e1e7f3;
+}
+
+th {
+  color: #334155;
+  font-weight: 700;
+}
+
+.delete-button {
+  background: #e53e3e;
+}
+
+.delete-button:hover {
+  background: #c53030;
+}
+
+.status-overdue {
+  background: rgba(255, 205, 210, 0.45);
+}
+
+.status-completed {
+  background: rgba(206, 248, 206, 0.55);
+}
+
+footer {
+  padding: 1rem 0 2rem;
+  color: #64748b;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

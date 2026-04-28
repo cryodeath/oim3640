@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="row g-4">
+    <div class="col-12 col-xl-8">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h2 class="card-title">Dashboard</h2>
+          <p class="text-muted">Review tasks, deadlines, ownership, and budget at a glance.</p>
+
+          <div class="row row-cols-1 row-cols-md-2 g-3 mt-4">
+            <div class="col">
+              <div class="card metric-card">
+                <div class="card-body">
+                  <h6>Total tasks</h6>
+                  <strong>{{ metrics.total }}</strong>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card metric-card">
+                <div class="card-body">
+                  <h6>Overdue</h6>
+                  <strong>{{ metrics.overdue }}</strong>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card metric-card">
+                <div class="card-body">
+                  <h6>Completion rate</h6>
+                  <strong>{{ metrics.completion_rate }}%</strong>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card metric-card">
+                <div class="card-body">
+                  <h6>Total budget</h6>
+                  <strong>${{ "%.2f" | format(metrics.total_budget) }}</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="table-responsive mt-4">
+            <table class="table table-hover align-middle">
+              <thead class="table-light">
+                <tr>
+                  <th scope="col">Title</th>
+                  <th scope="col">Owner</th>
+                  <th scope="col">Due date</th>
+                  <th scope="col">Category</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Budget</th>
+                  <th scope="col">Notes</th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for task in tasks %}
+                  <tr class="{{ 'table-danger' if task.status == 'Overdue' else 'table-success' if task.status == 'Completed' else ''}}">
+                    <td>{{ task.title }}</td>
+                    <td>{{ task.owner or '—' }}</td>
+                    <td>{{ task.due_date or '—' }}</td>
+                    <td>{{ task.category }}</td>
+                    <td>{{ task.status }}</td>
+                    <td>${{ "%.2f" | format(task.budget) }}</td>
+                    <td>{{ task.notes or '—' }}</td>
+                    <td>
+                      <form method="post" action="/delete/{{ loop.index0 }}">
+                        <button class="btn btn-sm btn-outline-danger" type="submit">Delete</button>
+                      </form>
+                    </td>
+                  </tr>
+                {% else %}
+                  <tr>
+                    <td colspan="8" class="text-center text-muted">No tasks yet. Add your first task below.</td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-xl-4">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h2 class="card-title">Add a task</h2>
+          <form method="post" action="/add" class="needs-validation" novalidate>
+            <div class="mb-3">
+              <label class="form-label">Task title</label>
+              <input class="form-control" name="title" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Owner</label>
+              <input class="form-control" name="owner">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Due date</label>
+              <input class="form-control" type="date" name="due_date">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Category</label>
+              <select class="form-select" name="category">
+                {% for category in categories %}
+                  <option value="{{ category }}">{{ category }}</option>
+                {% endfor %}
+              </select>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Status</label>
+              <select class="form-select" name="status">
+                {% for status in statuses %}
+                  <option value="{{ status }}">{{ status }}</option>
+                {% endfor %}
+              </select>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Budget ($)</label>
+              <input class="form-control" type="number" name="budget" min="0" step="0.01" value="0.00">
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Short notes</label>
+              <textarea class="form-control" name="notes" rows="3"></textarea>
+            </div>
+            <button class="btn btn-primary w-100" type="submit">Save task</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
