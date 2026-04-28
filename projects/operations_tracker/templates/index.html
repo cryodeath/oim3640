@@ -3,25 +3,25 @@
 {% block content %}
   <section class="grid">
     <div class="card card-large">
-      <h2>Dashboard</h2>
+      <h2>📊 Dashboard</h2>
       <div class="metrics">
         <div class="metric">
-          <span class="metric-label">Total tasks</span>
-          <span class="metric-value">{{ metrics.total }}</span>
-        </div>
-        <div class="metric">
-          <span class="metric-label">Overdue</span>
-          <span class="metric-value">{{ metrics.overdue }}</span>
-        </div>
-        <div class="metric">
-          <span class="metric-label">Completion rate</span>
-          <span class="metric-value">{{ metrics.completion_rate }}%</span>
-        </div>
-        <div class="metric">
-          <span class="metric-label">Total budget</span>
-          <span class="metric-value">${{ "%.2f" | format(metrics.total_budget) }}</span>
-        </div>
-      </div>
+              <span class="metric-label">📋 Total tasks</span>
+              <span class="metric-value">{{ metrics.total }}</span>
+            </div>
+            <div class="metric">
+              <span class="metric-label">⚠️ Overdue</span>
+              <span class="metric-value">{{ metrics.overdue }}</span>
+            </div>
+            <div class="metric">
+              <span class="metric-label">✓ Completion rate</span>
+              <span class="metric-value">{{ metrics.completion_rate }}%</span>
+            </div>
+            <div class="metric">
+              <span class="metric-label">💰 Total budget</span>
+              <span class="metric-value">${{ "%.2f" | format(metrics.total_budget) }}</span>
+            </div>
+          </div>
 
       <form class="filter-form" method="get" action="/">
         <label>
@@ -45,7 +45,7 @@
     </div>
 
     <div class="card card-small">
-      <h2>Add a task</h2>
+      <h2>✨ Add a task</h2>
       <form method="post" action="/add" class="task-form">
         <label>Title <input type="text" name="title" required></label>
         <label>Owner <input type="text" name="owner"></label>
@@ -72,7 +72,7 @@
   </section>
 
   <section class="card">
-    <h2>Task list</h2>
+    <h2>📝 Task list</h2>
     {% if tasks %}
       <table>
         <thead>
@@ -94,7 +94,28 @@
               <td>{{ task.owner }}</td>
               <td>{{ task.due_date or '—' }}</td>
               <td>{{ task.category }}</td>
-              <td>{{ task.status }}</td>
+              <td>
+                <span style="
+                  display: inline-block;
+                  padding: 0.4rem 0.8rem;
+                  border-radius: 20px;
+                  font-size: 0.85rem;
+                  font-weight: 600;
+                  {% if task.status == 'Completed' %}
+                    background: linear-gradient(135deg, rgba(67, 233, 123, 0.2), rgba(56, 249, 215, 0.2));
+                    color: #059669;
+                  {% elif task.status == 'In Progress' %}
+                    background: linear-gradient(135deg, rgba(79, 172, 254, 0.2), rgba(0, 242, 254, 0.2));
+                    color: #0284c7;
+                  {% elif task.status == 'Overdue' %}
+                    background: linear-gradient(135deg, rgba(245, 87, 108, 0.2), rgba(240, 147, 251, 0.2));
+                    color: #be123c;
+                  {% else %}
+                    background: linear-gradient(135deg, rgba(156, 163, 175, 0.2), rgba(209, 213, 219, 0.2));
+                    color: #6b7280;
+                  {% endif %}
+                ">{{ task.status }}</span>
+              </td>
               <td>${{ "%.2f" | format(task.budget) }}</td>
               <td>{{ task.notes }}</td>
               <td>
