@@ -1,0 +1,27 @@
+[
+  {
+    "year": 1977,
+    "url": "https://www.berkshirehathaway.com/letters/1977.html",
+    "local_path": "data/raw/1977.html"
+  },
+  {
+    "year": 1978,
+    "url": "https://www.berkshirehathaway.com/letters/1978.html",
+    "local_path": "data/raw/1978.html"
+  },
+  {
+    "year": 1979,
+    "url": "https://www.berkshirehathaway.com/letters/1979.html",
+    "local_path": "data/raw/1979.html"
+  },
+  {
+    "year": 1980,
+    "url": "https://www.berkshirehathaway.com/letters/1980.html",
+    "local_path": "data/raw/1980.html"
+  },
+  {
+    "year": 1981,
+    "url": "https://www.berkshirehathaway.com/letters/1981.html",
+    "local_path": "data/raw/1981.html"
+  }
+]

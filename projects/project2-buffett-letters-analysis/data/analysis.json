@@ -1,0 +1,1954 @@
+[
+  {
+    "year": 1977,
+    "total_words": 3025,
+    "unique_words": 1030,
+    "vocab_richness": 0.34049586776859503,
+    "avg_word_length": 5.270743801652893,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 0.0,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 6.6115702479338845,
+      "risk": 3.3057851239669422,
+      "inflation": 6.6115702479338845,
+      "insurance": 99.17355371900827,
+      "capital": 59.50413223140495,
+      "acquisition": 9.917355371900827
+    },
+    "top_words": [
+      [
+        "million",
+        31
+      ],
+      [
+        "insurance",
+        30
+      ],
+      [
+        "earnings",
+        26
+      ],
+      [
+        "company",
+        25
+      ],
+      [
+        "1977",
+        24
+      ],
+      [
+        "year",
+        23
+      ],
+      [
+        "capital",
+        18
+      ],
+      [
+        "business",
+        16
+      ],
+      [
+        "companies",
+        15
+      ],
+      [
+        "operation",
+        13
+      ]
+    ]
+  },
+  {
+    "year": 1978,
+    "total_words": 4259,
+    "unique_words": 1357,
+    "vocab_richness": 0.31861939422399627,
+    "avg_word_length": 5.158018314158253,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 0.0,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 0.0,
+      "risk": 2.34796900680911,
+      "inflation": 2.34796900680911,
+      "insurance": 68.0911011974642,
+      "capital": 42.26344212256398,
+      "acquisition": 4.69593801361822
+    },
+    "top_words": [
+      [
+        "earnings",
+        34
+      ],
+      [
+        "insurance",
+        29
+      ],
+      [
+        "1978",
+        21
+      ],
+      [
+        "businesses",
+        19
+      ],
+      [
+        "business",
+        19
+      ],
+      [
+        "company",
+        18
+      ],
+      [
+        "capital",
+        18
+      ],
+      [
+        "operating",
+        14
+      ],
+      [
+        "companies",
+        14
+      ],
+      [
+        "million",
+        14
+      ]
+    ]
+  },
+  {
+    "year": 1979,
+    "total_words": 6530,
+    "unique_words": 1762,
+    "vocab_richness": 0.2698315467075038,
+    "avg_word_length": 4.97947932618683,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 0.0,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 0.0,
+      "risk": 0.0,
+      "inflation": 13.782542113323123,
+      "insurance": 53.59877488514548,
+      "capital": 32.159264931087286,
+      "acquisition": 3.0627871362940273
+    },
+    "top_words": [
+      [
+        "earnings",
+        37
+      ],
+      [
+        "business",
+        36
+      ],
+      [
+        "insurance",
+        35
+      ],
+      [
+        "year",
+        27
+      ],
+      [
+        "equity",
+        23
+      ],
+      [
+        "us",
+        23
+      ],
+      [
+        "berkshire",
+        22
+      ],
+      [
+        "capital",
+        21
+      ],
+      [
+        "would",
+        21
+      ],
+      [
+        "market",
+        20
+      ]
+    ]
+  },
+  {
+    "year": 1980,
+    "total_words": 7305,
+    "unique_words": 1996,
+    "vocab_richness": 0.2732375085557837,
+    "avg_word_length": 5.117180013689254,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 0.0,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 1.3689253935660506,
+      "risk": 0.0,
+      "inflation": 20.53388090349076,
+      "insurance": 27.378507871321013,
+      "capital": 26.009582477754964,
+      "acquisition": 4.1067761806981515
+    },
+    "top_words": [
+      [
+        "earnings",
+        87
+      ],
+      [
+        "business",
+        36
+      ],
+      [
+        "companies",
+        29
+      ],
+      [
+        "berkshire",
+        25
+      ],
+      [
+        "would",
+        25
+      ],
+      [
+        "underwriting",
+        21
+      ],
+      [
+        "insurance",
+        20
+      ],
+      [
+        "us",
+        20
+      ],
+      [
+        "value",
+        20
+      ],
+      [
+        "investment",
+        20
+      ]
+    ]
+  },
+  {
+    "year": 1981,
+    "total_words": 6447,
+    "unique_words": 1904,
+    "vocab_richness": 0.2953311617806732,
+    "avg_word_length": 5.241817899798356,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 0.0,
+      "fear": 7.755545214828603,
+      "uncertainty": 1.5511090429657206,
+      "opportunity": 1.5511090429657206,
+      "risk": 1.5511090429657206,
+      "inflation": 12.408872343725765,
+      "insurance": 23.26663564448581,
+      "capital": 40.32883511710873,
+      "acquisition": 13.959981386691485
+    },
+    "top_words": [
+      [
+        "earnings",
+        48
+      ],
+      [
+        "business",
+        35
+      ],
+      [
+        "capital",
+        26
+      ],
+      [
+        "equity",
+        25
+      ],
+      [
+        "berkshire",
+        23
+      ],
+      [
+        "businesses",
+        22
+      ],
+      [
+        "companies",
+        21
+      ],
+      [
+        "return",
+        21
+      ],
+      [
+        "shareholders",
+        20
+      ],
+      [
+        "would",
+        20
+      ]
+    ]
+  },
+  {
+    "year": 1982,
+    "total_words": 7689,
+    "unique_words": 2152,
+    "vocab_richness": 0.2798803485498764,
+    "avg_word_length": 5.153726102223956,
+    "signal_words": {
+      "technology": 1.3005592404734037,
+      "moat": 0.0,
+      "fear": 1.3005592404734037,
+      "uncertainty": 0.0,
+      "opportunity": 0.0,
+      "risk": 0.0,
+      "inflation": 3.901677721420211,
+      "insurance": 32.51398101183509,
+      "capital": 13.005592404734035,
+      "acquisition": 10.40447392378723
+    },
+    "top_words": [
+      [
+        "business",
+        54
+      ],
+      [
+        "earnings",
+        52
+      ],
+      [
+        "value",
+        47
+      ],
+      [
+        "market",
+        35
+      ],
+      [
+        "businesses",
+        33
+      ],
+      [
+        "company",
+        28
+      ],
+      [
+        "stock",
+        26
+      ],
+      [
+        "insurance",
+        25
+      ],
+      [
+        "companies",
+        24
+      ],
+      [
+        "would",
+        24
+      ]
+    ]
+  },
+  {
+    "year": 1983,
+    "total_words": 11234,
+    "unique_words": 2547,
+    "vocab_richness": 0.22672244970624889,
+    "avg_word_length": 4.966619191739363,
+    "signal_words": {
+      "technology": 0.8901548869503294,
+      "moat": 0.0,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 0.0,
+      "risk": 0.8901548869503294,
+      "inflation": 12.46216841730461,
+      "insurance": 19.583407512907247,
+      "capital": 17.80309773900659,
+      "acquisition": 8.901548869503294
+    },
+    "top_words": [
+      [
+        "business",
+        97
+      ],
+      [
+        "value",
+        72
+      ],
+      [
+        "million",
+        51
+      ],
+      [
+        "goodwill",
+        49
+      ],
+      [
+        "earnings",
+        47
+      ],
+      [
+        "assets",
+        45
+      ],
+      [
+        "would",
+        39
+      ],
+      [
+        "years",
+        37
+      ],
+      [
+        "economic",
+        36
+      ],
+      [
+        "businesses",
+        35
+      ]
+    ]
+  },
+  {
+    "year": 1984,
+    "total_words": 12427,
+    "unique_words": 2745,
+    "vocab_richness": 0.22088999758590167,
+    "avg_word_length": 4.994045224108795,
+    "signal_words": {
+      "technology": 0.8046994447573831,
+      "moat": 0.0,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 0.8046994447573831,
+      "risk": 7.242295002816449,
+      "inflation": 7.242295002816449,
+      "insurance": 24.945682787478876,
+      "capital": 24.140983342721494,
+      "acquisition": 1.6093988895147662
+    },
+    "top_words": [
+      [
+        "business",
+        92
+      ],
+      [
+        "earnings",
+        65
+      ],
+      [
+        "year",
+        57
+      ],
+      [
+        "value",
+        42
+      ],
+      [
+        "would",
+        42
+      ],
+      [
+        "1984",
+        40
+      ],
+      [
+        "years",
+        34
+      ],
+      [
+        "million",
+        32
+      ],
+      [
+        "businesses",
+        32
+      ],
+      [
+        "insurance",
+        31
+      ]
+    ]
+  },
+  {
+    "year": 1985,
+    "total_words": 13414,
+    "unique_words": 2929,
+    "vocab_richness": 0.21835395855076786,
+    "avg_word_length": 4.963247353511257,
+    "signal_words": {
+      "technology": 0.7454897867899211,
+      "moat": 0.0,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 2.9819591471596842,
+      "risk": 8.945877441479052,
+      "inflation": 3.727448933949605,
+      "insurance": 23.855673177277474,
+      "capital": 37.27448933949605,
+      "acquisition": 8.945877441479052
+    },
+    "top_words": [
+      [
+        "business",
+        112
+      ],
+      [
+        "would",
+        57
+      ],
+      [
+        "years",
+        52
+      ],
+      [
+        "million",
+        52
+      ],
+      [
+        "capital",
+        50
+      ],
+      [
+        "value",
+        48
+      ],
+      [
+        "company",
+        48
+      ],
+      [
+        "earnings",
+        44
+      ],
+      [
+        "managers",
+        43
+      ],
+      [
+        "stock",
+        40
+      ]
+    ]
+  },
+  {
+    "year": 1986,
+    "total_words": 13430,
+    "unique_words": 2871,
+    "vocab_richness": 0.21377513030528666,
+    "avg_word_length": 4.943484735666418,
+    "signal_words": {
+      "technology": 0.7446016381236039,
+      "moat": 2.2338049143708116,
+      "fear": 2.9784065524944157,
+      "uncertainty": 0.0,
+      "opportunity": 0.0,
+      "risk": 1.4892032762472078,
+      "inflation": 6.7014147431124345,
+      "insurance": 25.31645569620253,
+      "capital": 19.3596425912137,
+      "acquisition": 5.212211466865227
+    },
+    "top_words": [
+      [
+        "business",
+        72
+      ],
+      [
+        "million",
+        51
+      ],
+      [
+        "businesses",
+        48
+      ],
+      [
+        "tax",
+        47
+      ],
+      [
+        "1986",
+        46
+      ],
+      [
+        "years",
+        46
+      ],
+      [
+        "earnings",
+        44
+      ],
+      [
+        "us",
+        42
+      ],
+      [
+        "would",
+        36
+      ],
+      [
+        "new",
+        35
+      ]
+    ]
+  },
+  {
+    "year": 1987,
+    "total_words": 12339,
+    "unique_words": 2842,
+    "vocab_richness": 0.2303266066942216,
+    "avg_word_length": 4.923737742118486,
+    "signal_words": {
+      "technology": 0.8104384471999352,
+      "moat": 0.0,
+      "fear": 0.8104384471999352,
+      "uncertainty": 0.0,
+      "opportunity": 0.8104384471999352,
+      "risk": 2.4313153415998054,
+      "inflation": 4.862630683199611,
+      "insurance": 34.038414782397275,
+      "capital": 16.208768943998702,
+      "acquisition": 0.8104384471999352
+    },
+    "top_words": [
+      [
+        "business",
+        76
+      ],
+      [
+        "us",
+        49
+      ],
+      [
+        "1987",
+        44
+      ],
+      [
+        "earnings",
+        44
+      ],
+      [
+        "insurance",
+        42
+      ],
+      [
+        "market",
+        39
+      ],
+      [
+        "businesses",
+        37
+      ],
+      [
+        "years",
+        36
+      ],
+      [
+        "million",
+        35
+      ],
+      [
+        "value",
+        32
+      ]
+    ]
+  },
+  {
+    "year": 1988,
+    "total_words": 11534,
+    "unique_words": 2823,
+    "vocab_richness": 0.24475463846020462,
+    "avg_word_length": 4.943384775446506,
+    "signal_words": {
+      "technology": 0.8670019074041962,
+      "moat": 0.0,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 1.7340038148083925,
+      "risk": 4.335009537020982,
+      "inflation": 1.7340038148083925,
+      "insurance": 17.340038148083927,
+      "capital": 13.005028611062944,
+      "acquisition": 5.202011444425178
+    },
+    "top_words": [
+      [
+        "business",
+        59
+      ],
+      [
+        "arbitrage",
+        35
+      ],
+      [
+        "million",
+        33
+      ],
+      [
+        "would",
+        33
+      ],
+      [
+        "1988",
+        30
+      ],
+      [
+        "berkshire",
+        30
+      ],
+      [
+        "company",
+        29
+      ],
+      [
+        "earnings",
+        28
+      ],
+      [
+        "years",
+        27
+      ],
+      [
+        "one",
+        27
+      ]
+    ]
+  },
+  {
+    "year": 1989,
+    "total_words": 14187,
+    "unique_words": 3208,
+    "vocab_richness": 0.22612250652005356,
+    "avg_word_length": 4.875801790371467,
+    "signal_words": {
+      "technology": 0.704870656234581,
+      "moat": 0.0,
+      "fear": 0.704870656234581,
+      "uncertainty": 0.0,
+      "opportunity": 2.1146119687037426,
+      "risk": 2.819482624938324,
+      "inflation": 1.409741312469162,
+      "insurance": 12.687671812222456,
+      "capital": 14.802283780926201,
+      "acquisition": 3.5243532811729046
+    },
+    "top_words": [
+      [
+        "business",
+        83
+      ],
+      [
+        "years",
+        57
+      ],
+      [
+        "million",
+        45
+      ],
+      [
+        "would",
+        44
+      ],
+      [
+        "earnings",
+        37
+      ],
+      [
+        "interest",
+        36
+      ],
+      [
+        "one",
+        36
+      ],
+      [
+        "time",
+        36
+      ],
+      [
+        "year",
+        34
+      ],
+      [
+        "1989",
+        31
+      ]
+    ]
+  },
+  {
+    "year": 1990,
+    "total_words": 15134,
+    "unique_words": 3336,
+    "vocab_richness": 0.22043081802563763,
+    "avg_word_length": 4.909277124355755,
+    "signal_words": {
+      "technology": 0.6607638430025109,
+      "moat": 0.0,
+      "fear": 1.3215276860050218,
+      "uncertainty": 0.0,
+      "opportunity": 0.6607638430025109,
+      "risk": 3.9645830580150654,
+      "inflation": 1.3215276860050218,
+      "insurance": 27.091317563102947,
+      "capital": 9.911457645037665,
+      "acquisition": 1.3215276860050218
+    },
+    "top_words": [
+      [
+        "business",
+        88
+      ],
+      [
+        "would",
+        67
+      ],
+      [
+        "earnings",
+        60
+      ],
+      [
+        "value",
+        53
+      ],
+      [
+        "year",
+        50
+      ],
+      [
+        "insurance",
+        41
+      ],
+      [
+        "years",
+        36
+      ],
+      [
+        "million",
+        36
+      ],
+      [
+        "businesses",
+        36
+      ],
+      [
+        "us",
+        35
+      ]
+    ]
+  },
+  {
+    "year": 1991,
+    "total_words": 8859,
+    "unique_words": 2490,
+    "vocab_richness": 0.28107009820521506,
+    "avg_word_length": 4.881927982842307,
+    "signal_words": {
+      "technology": 1.1287955751213454,
+      "moat": 0.0,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 0.0,
+      "risk": 4.515182300485382,
+      "inflation": 2.257591150242691,
+      "insurance": 15.803138051698838,
+      "capital": 22.57591150242691,
+      "acquisition": 4.515182300485382
+    },
+    "top_words": [
+      [
+        "earnings",
+        60
+      ],
+      [
+        "million",
+        48
+      ],
+      [
+        "business",
+        35
+      ],
+      [
+        "one",
+        32
+      ],
+      [
+        "years",
+        31
+      ],
+      [
+        "company",
+        31
+      ],
+      [
+        "year",
+        30
+      ],
+      [
+        "berkshire",
+        27
+      ],
+      [
+        "1991",
+        25
+      ],
+      [
+        "last",
+        23
+      ]
+    ]
+  },
+  {
+    "year": 1992,
+    "total_words": 10879,
+    "unique_words": 2746,
+    "vocab_richness": 0.252412905597941,
+    "avg_word_length": 4.876551153598676,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 0.0,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 0.9192021325489476,
+      "risk": 0.9192021325489476,
+      "inflation": 0.0,
+      "insurance": 15.626436253332109,
+      "capital": 13.788031988234213,
+      "acquisition": 5.515212795293685
+    },
+    "top_words": [
+      [
+        "business",
+        55
+      ],
+      [
+        "earnings",
+        49
+      ],
+      [
+        "value",
+        46
+      ],
+      [
+        "us",
+        33
+      ],
+      [
+        "berkshire",
+        32
+      ],
+      [
+        "company",
+        32
+      ],
+      [
+        "would",
+        31
+      ],
+      [
+        "one",
+        28
+      ],
+      [
+        "stock",
+        26
+      ],
+      [
+        "year",
+        25
+      ]
+    ]
+  },
+  {
+    "year": 1993,
+    "total_words": 10832,
+    "unique_words": 2730,
+    "vocab_richness": 0.25203101920236337,
+    "avg_word_length": 4.8716765140324965,
+    "signal_words": {
+      "technology": 0.9231905465288036,
+      "moat": 0.9231905465288036,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 0.0,
+      "risk": 19.387001477104874,
+      "inflation": 0.9231905465288036,
+      "insurance": 15.69423929098966,
+      "capital": 12.924667651403249,
+      "acquisition": 1.8463810930576072
+    },
+    "top_words": [
+      [
+        "business",
+        59
+      ],
+      [
+        "berkshire",
+        45
+      ],
+      [
+        "earnings",
+        43
+      ],
+      [
+        "million",
+        35
+      ],
+      [
+        "1993",
+        34
+      ],
+      [
+        "years",
+        34
+      ],
+      [
+        "year",
+        34
+      ],
+      [
+        "company",
+        34
+      ],
+      [
+        "would",
+        33
+      ],
+      [
+        "directors",
+        26
+      ]
+    ]
+  },
+  {
+    "year": 1994,
+    "total_words": 9356,
+    "unique_words": 2517,
+    "vocab_richness": 0.26902522445489524,
+    "avg_word_length": 4.792325780247969,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 0.0,
+      "fear": 2.1376656690893543,
+      "uncertainty": 0.0,
+      "opportunity": 1.0688328345446771,
+      "risk": 2.1376656690893543,
+      "inflation": 0.0,
+      "insurance": 21.376656690893547,
+      "capital": 23.5143223599829,
+      "acquisition": 8.550662676357417
+    },
+    "top_words": [
+      [
+        "value",
+        70
+      ],
+      [
+        "earnings",
+        56
+      ],
+      [
+        "berkshire",
+        43
+      ],
+      [
+        "business",
+        36
+      ],
+      [
+        "million",
+        31
+      ],
+      [
+        "scott",
+        31
+      ],
+      [
+        "company",
+        30
+      ],
+      [
+        "berkshires",
+        28
+      ],
+      [
+        "book",
+        27
+      ],
+      [
+        "us",
+        27
+      ]
+    ]
+  },
+  {
+    "year": 1995,
+    "total_words": 11672,
+    "unique_words": 2764,
+    "vocab_richness": 0.23680603152844415,
+    "avg_word_length": 4.715729952021933,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 0.8567511994516793,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 0.8567511994516793,
+      "risk": 0.8567511994516793,
+      "inflation": 0.0,
+      "insurance": 23.132282385195342,
+      "capital": 7.710760795065113,
+      "acquisition": 6.854009595613435
+    },
+    "top_words": [
+      [
+        "business",
+        61
+      ],
+      [
+        "stock",
+        54
+      ],
+      [
+        "would",
+        44
+      ],
+      [
+        "berkshire",
+        43
+      ],
+      [
+        "years",
+        41
+      ],
+      [
+        "year",
+        40
+      ],
+      [
+        "shares",
+        39
+      ],
+      [
+        "company",
+        38
+      ],
+      [
+        "1995",
+        35
+      ],
+      [
+        "us",
+        34
+      ]
+    ]
+  },
+  {
+    "year": 1996,
+    "total_words": 11404,
+    "unique_words": 2880,
+    "vocab_richness": 0.2525429673798667,
+    "avg_word_length": 4.861101367941074,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 0.876885303402315,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 0.876885303402315,
+      "risk": 4.384426517011575,
+      "inflation": 0.0,
+      "insurance": 21.04524728165556,
+      "capital": 4.384426517011575,
+      "acquisition": 7.01508242721852
+    },
+    "top_words": [
+      [
+        "berkshire",
+        57
+      ],
+      [
+        "business",
+        56
+      ],
+      [
+        "would",
+        53
+      ],
+      [
+        "value",
+        44
+      ],
+      [
+        "earnings",
+        44
+      ],
+      [
+        "year",
+        43
+      ],
+      [
+        "company",
+        41
+      ],
+      [
+        "shares",
+        32
+      ],
+      [
+        "us",
+        31
+      ],
+      [
+        "years",
+        30
+      ]
+    ]
+  },
+  {
+    "year": 1997,
+    "total_words": 11430,
+    "unique_words": 2904,
+    "vocab_richness": 0.25406824146981627,
+    "avg_word_length": 4.782064741907262,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 0.0,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 1.7497812773403323,
+      "risk": 3.4995625546806646,
+      "inflation": 0.8748906386701661,
+      "insurance": 20.12248468941382,
+      "capital": 5.2493438320209975,
+      "acquisition": 6.999125109361329
+    },
+    "top_words": [
+      [
+        "berkshire",
+        51
+      ],
+      [
+        "earnings",
+        47
+      ],
+      [
+        "year",
+        42
+      ],
+      [
+        "business",
+        38
+      ],
+      [
+        "us",
+        36
+      ],
+      [
+        "years",
+        35
+      ],
+      [
+        "company",
+        32
+      ],
+      [
+        "1997",
+        31
+      ],
+      [
+        "last",
+        31
+      ],
+      [
+        "profit",
+        30
+      ]
+    ]
+  },
+  {
+    "year": 1998,
+    "total_words": 91,
+    "unique_words": 55,
+    "vocab_richness": 0.6043956043956044,
+    "avg_word_length": 4.604395604395604,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 0.0,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 0.0,
+      "risk": 0.0,
+      "inflation": 0.0,
+      "insurance": 0.0,
+      "capital": 0.0,
+      "acquisition": 0.0
+    },
+    "top_words": [
+      [
+        "chairmans",
+        4
+      ],
+      [
+        "letter",
+        4
+      ],
+      [
+        "pdf",
+        4
+      ],
+      [
+        "version",
+        4
+      ],
+      [
+        "1998",
+        3
+      ],
+      [
+        "adobe",
+        3
+      ],
+      [
+        "important",
+        2
+      ],
+      [
+        "note",
+        2
+      ],
+      [
+        "html",
+        2
+      ],
+      [
+        "format",
+        2
+      ]
+    ]
+  },
+  {
+    "year": 1999,
+    "total_words": 91,
+    "unique_words": 55,
+    "vocab_richness": 0.6043956043956044,
+    "avg_word_length": 4.604395604395604,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 0.0,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 0.0,
+      "risk": 0.0,
+      "inflation": 0.0,
+      "insurance": 0.0,
+      "capital": 0.0,
+      "acquisition": 0.0
+    },
+    "top_words": [
+      [
+        "chairmans",
+        4
+      ],
+      [
+        "letter",
+        4
+      ],
+      [
+        "pdf",
+        4
+      ],
+      [
+        "version",
+        4
+      ],
+      [
+        "1999",
+        3
+      ],
+      [
+        "adobe",
+        3
+      ],
+      [
+        "important",
+        2
+      ],
+      [
+        "note",
+        2
+      ],
+      [
+        "html",
+        2
+      ],
+      [
+        "format",
+        2
+      ]
+    ]
+  },
+  {
+    "year": 2000,
+    "total_words": 91,
+    "unique_words": 55,
+    "vocab_richness": 0.6043956043956044,
+    "avg_word_length": 4.604395604395604,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 0.0,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 0.0,
+      "risk": 0.0,
+      "inflation": 0.0,
+      "insurance": 0.0,
+      "capital": 0.0,
+      "acquisition": 0.0
+    },
+    "top_words": [
+      [
+        "chairmans",
+        4
+      ],
+      [
+        "letter",
+        4
+      ],
+      [
+        "pdf",
+        4
+      ],
+      [
+        "version",
+        4
+      ],
+      [
+        "2000",
+        3
+      ],
+      [
+        "adobe",
+        3
+      ],
+      [
+        "important",
+        2
+      ],
+      [
+        "note",
+        2
+      ],
+      [
+        "html",
+        2
+      ],
+      [
+        "format",
+        2
+      ]
+    ]
+  },
+  {
+    "year": 2001,
+    "total_words": 91,
+    "unique_words": 55,
+    "vocab_richness": 0.6043956043956044,
+    "avg_word_length": 4.604395604395604,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 0.0,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 0.0,
+      "risk": 0.0,
+      "inflation": 0.0,
+      "insurance": 0.0,
+      "capital": 0.0,
+      "acquisition": 0.0
+    },
+    "top_words": [
+      [
+        "chairmans",
+        4
+      ],
+      [
+        "letter",
+        4
+      ],
+      [
+        "pdf",
+        4
+      ],
+      [
+        "version",
+        4
+      ],
+      [
+        "2001",
+        3
+      ],
+      [
+        "adobe",
+        3
+      ],
+      [
+        "important",
+        2
+      ],
+      [
+        "note",
+        2
+      ],
+      [
+        "html",
+        2
+      ],
+      [
+        "format",
+        2
+      ]
+    ]
+  },
+  {
+    "year": 2002,
+    "total_words": 57,
+    "unique_words": 38,
+    "vocab_richness": 0.6666666666666666,
+    "avg_word_length": 4.456140350877193,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 0.0,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 0.0,
+      "risk": 0.0,
+      "inflation": 0.0,
+      "insurance": 0.0,
+      "capital": 0.0,
+      "acquisition": 0.0
+    },
+    "top_words": [
+      [
+        "chairmans",
+        3
+      ],
+      [
+        "letter",
+        3
+      ],
+      [
+        "adobe",
+        3
+      ],
+      [
+        "important",
+        2
+      ],
+      [
+        "note",
+        2
+      ],
+      [
+        "2002",
+        2
+      ],
+      [
+        "pdf",
+        2
+      ],
+      [
+        "format",
+        2
+      ],
+      [
+        "acrobat",
+        2
+      ],
+      [
+        "presented",
+        1
+      ]
+    ]
+  },
+  {
+    "year": 2003,
+    "total_words": 53,
+    "unique_words": 36,
+    "vocab_richness": 0.6792452830188679,
+    "avg_word_length": 4.679245283018868,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 0.0,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 0.0,
+      "risk": 0.0,
+      "inflation": 0.0,
+      "insurance": 0.0,
+      "capital": 0.0,
+      "acquisition": 0.0
+    },
+    "top_words": [
+      [
+        "chairmans",
+        3
+      ],
+      [
+        "letter",
+        3
+      ],
+      [
+        "adobe",
+        3
+      ],
+      [
+        "important",
+        2
+      ],
+      [
+        "note",
+        2
+      ],
+      [
+        "2003",
+        2
+      ],
+      [
+        "acrobat",
+        2
+      ],
+      [
+        "software",
+        2
+      ],
+      [
+        "presented",
+        1
+      ],
+      [
+        "pdf",
+        1
+      ]
+    ]
+  },
+  {
+    "year": 2004,
+    "total_words": 14387,
+    "unique_words": 3545,
+    "vocab_richness": 0.24640300271078056,
+    "avg_word_length": 4.837492180440676,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 0.0,
+      "fear": 1.3901438798915688,
+      "uncertainty": 0.0,
+      "opportunity": 2.0852158198373534,
+      "risk": 2.0852158198373534,
+      "inflation": 0.6950719399457844,
+      "insurance": 23.63244595815667,
+      "capital": 5.560575519566275,
+      "acquisition": 6.25564745951206
+    },
+    "top_words": [
+      [
+        "year",
+        72
+      ],
+      [
+        "would",
+        60
+      ],
+      [
+        "us",
+        54
+      ],
+      [
+        "berkshire",
+        50
+      ],
+      [
+        "2004",
+        41
+      ],
+      [
+        "years",
+        40
+      ],
+      [
+        "last",
+        40
+      ],
+      [
+        "business",
+        39
+      ],
+      [
+        "company",
+        38
+      ],
+      [
+        "insurance",
+        34
+      ]
+    ]
+  },
+  {
+    "year": 2005,
+    "total_words": 12984,
+    "unique_words": 3281,
+    "vocab_richness": 0.25269562538508933,
+    "avg_word_length": 4.817159581022797,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 1.5403573629081948,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 1.5403573629081948,
+      "risk": 2.310536044362292,
+      "inflation": 0.0,
+      "insurance": 17.714109673444238,
+      "capital": 5.391250770178681,
+      "acquisition": 6.161429451632779
+    },
+    "top_words": [
+      [
+        "berkshire",
+        60
+      ],
+      [
+        "year",
+        50
+      ],
+      [
+        "earnings",
+        50
+      ],
+      [
+        "business",
+        45
+      ],
+      [
+        "2005",
+        40
+      ],
+      [
+        "us",
+        40
+      ],
+      [
+        "years",
+        38
+      ],
+      [
+        "value",
+        32
+      ],
+      [
+        "one",
+        32
+      ],
+      [
+        "last",
+        30
+      ]
+    ]
+  },
+  {
+    "year": 2006,
+    "total_words": 14072,
+    "unique_words": 3514,
+    "vocab_richness": 0.24971574758385445,
+    "avg_word_length": 4.791714042069358,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 0.0,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 0.7106310403638431,
+      "risk": 4.263786242183058,
+      "inflation": 0.0,
+      "insurance": 16.34451392836839,
+      "capital": 4.974417282546902,
+      "acquisition": 3.5531552018192154
+    },
+    "top_words": [
+      [
+        "berkshire",
+        77
+      ],
+      [
+        "year",
+        55
+      ],
+      [
+        "us",
+        49
+      ],
+      [
+        "would",
+        47
+      ],
+      [
+        "2006",
+        42
+      ],
+      [
+        "business",
+        42
+      ],
+      [
+        "years",
+        40
+      ],
+      [
+        "last",
+        38
+      ],
+      [
+        "many",
+        38
+      ],
+      [
+        "million",
+        37
+      ]
+    ]
+  },
+  {
+    "year": 2007,
+    "total_words": 11971,
+    "unique_words": 3090,
+    "vocab_richness": 0.2581237991813549,
+    "avg_word_length": 4.778130481998162,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 5.012112605463203,
+      "fear": 0.8353521009105338,
+      "uncertainty": 0.0,
+      "opportunity": 0.0,
+      "risk": 1.6707042018210676,
+      "inflation": 0.8353521009105338,
+      "insurance": 20.048450421852813,
+      "capital": 15.03633781638961,
+      "acquisition": 0.8353521009105338
+    },
+    "top_words": [
+      [
+        "earnings",
+        61
+      ],
+      [
+        "berkshire",
+        55
+      ],
+      [
+        "million",
+        53
+      ],
+      [
+        "year",
+        51
+      ],
+      [
+        "business",
+        49
+      ],
+      [
+        "years",
+        46
+      ],
+      [
+        "us",
+        43
+      ],
+      [
+        "billion",
+        40
+      ],
+      [
+        "2007",
+        35
+      ],
+      [
+        "last",
+        30
+      ]
+    ]
+  },
+  {
+    "year": 2008,
+    "total_words": 13136,
+    "unique_words": 3208,
+    "vocab_richness": 0.24421437271619975,
+    "avg_word_length": 4.8807856272838,
+    "signal_words": {
+      "technology": 0.0,
+      "moat": 0.0,
+      "fear": 3.045066991473812,
+      "uncertainty": 0.0,
+      "opportunity": 1.522533495736906,
+      "risk": 8.373934226552985,
+      "inflation": 2.2838002436053593,
+      "insurance": 30.45066991473812,
+      "capital": 4.5676004872107185,
+      "acquisition": 0.761266747868453
+    },
+    "top_words": [
+      [
+        "years",
+        50
+      ],
+      [
+        "berkshire",
+        49
+      ],
+      [
+        "year",
+        46
+      ],
+      [
+        "would",
+        45
+      ],
+      [
+        "insurance",
+        40
+      ],
+      [
+        "us",
+        40
+      ],
+      [
+        "billion",
+        35
+      ],
+      [
+        "last",
+        34
+      ],
+      [
+        "earnings",
+        34
+      ],
+      [
+        "2008",
+        31
+      ]
+    ]
+  }
+]

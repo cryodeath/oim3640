@@ -1,0 +1,70 @@
+{
+  "1970": {
+    "years": 3,
+    "avg_vocab_richness": 0.30964893623336504,
+    "total_words": 13814,
+    "avg_signal_words": {
+      "technology": 0.0,
+      "moat": 0.0,
+      "fear": 0.0,
+      "uncertainty": 0.0,
+      "opportunity": 2.203856749311295,
+      "risk": 1.8845847102586841,
+      "inflation": 7.580693789355372,
+      "insurance": 73.62114326720598,
+      "capital": 44.64227976168541,
+      "acquisition": 5.892026840604358
+    }
+  },
+  "1980": {
+    "years": 10,
+    "avg_vocab_richness": 0.2429394306709018,
+    "total_words": 110006,
+    "avg_signal_words": {
+      "technology": 0.6867816007933354,
+      "moat": 0.22338049143708116,
+      "fear": 1.3549820111230937,
+      "uncertainty": 0.15511090429657207,
+      "opportunity": 1.1365747259160908,
+      "risk": 2.9704447154017872,
+      "inflation": 7.498413387629701,
+      "insurance": 24.09264684442117,
+      "capital": 22.193830434802344,
+      "acquisition": 6.267707133133722
+    }
+  },
+  "1990": {
+    "years": 10,
+    "avg_vocab_richness": 0.3227178514655388,
+    "total_words": 89748,
+    "avg_signal_words": {
+      "technology": 0.271274996465266,
+      "moat": 0.26568270493827983,
+      "fear": 0.3459193355094376,
+      "uncertainty": 0.0,
+      "opportunity": 0.6132216590290462,
+      "risk": 3.9664374908387545,
+      "inflation": 0.5377200021446683,
+      "insurance": 15.989180220628182,
+      "capital": 10.005892229118263,
+      "acquisition": 4.26171836833924
+    }
+  },
+  "2000": {
+    "years": 9,
+    "avg_vocab_richness": 0.4228728562282247,
+    "total_words": 66842,
+    "avg_signal_words": {
+      "technology": 0.0,
+      "moat": 0.728052218707933,
+      "fear": 0.5856181080306572,
+      "uncertainty": 0.0,
+      "opportunity": 0.6509708576495886,
+      "risk": 2.078241837195195,
+      "inflation": 0.42380269827351974,
+      "insurance": 12.021132210728915,
+      "capital": 3.9477979862102432,
+      "acquisition": 1.9518723290825604
+    }
+  }
+}
